@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Keopi World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+</head>
+<body>
+    <!--NAVBAR SECTION-->
+    <div class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">KEOPI</a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="#home" class="nav-links" id="home-page">Home</a> </li>
+                <li class="nav-item"> <a href="#about" class="nav-links" id="about-page">About</a> </li>
+                <li class="nav-item"> <a href="#menu" class="nav-links" id="menu-page">Menu</a> </li>
+                <li class="nav-item"> <a href="#products" class="nav-links" id="products-page">Products</a> </li>
+                <li class="nav-item"> <a href="#review" class="nav-links" id="reviews-page">Reviews</a> </li>
+                <li class="nav-item"> <a href="#blogs" class="nav-links" id="blogs-page">Blogs</a> </li>
+                <li class="nav-item"> <a href="#contact" class="nav-links" id="contact-page">Contact</a> </li> 
+            </ul>
+
+            <div class="nav-icons">
+                <i class="lni lni-search-alt" id="search-btn"></i>
+                <i class="lni lni-cart" id="cart-btn"></i>
+                <i class="lni lni-menu" id="menu-btn"></i>
+            </div>
+            
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box"><i class="lni lni-search-alt"></i></label>
+            </div>
+            
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <img src="images/item1.jpg" alt="">
+                    <div class="cart-content">
+                        <h3>Cart Item 01</h3>
+                        <div class="cart-item-price">$15.99</div>
+                    </div>
+                    <span><i class="lni lni-close"></i></span>
+                </div>
+                <div class="cart-item">
+                    <img src="images/item2.jpg" alt="">
+                    <div class="cart-content">
+                        <h3>Cart Item 02</h3>
+                        <div class="cart-item-price">$19.99</div>
+                    </div>
+                    <span><i class="lni lni-close"></i></span>
+                </div>
+                <div class="cart-item">
+                    <img src="images/item3.jpg" alt="">
+                    <div class="cart-content">
+                        <h3>Cart Item 03</h3>
+                        <div class="cart-item-price">$20.99</div>
+                    </div>
+                    <span><i class="lni lni-close"></i></span>
+                </div>
+                <div class="cart-item">
+                    <img src="images/item4.jpg" alt="">
+                    <div class="cart-content">
+                        <h3>Cart Item 04</h3>
+                        <div class="cart-item-price">$25.99</div>
+                    </div>
+                    <span><i class="lni lni-close"></i></span>
+                </div>
+                <div class="cart-button">
+                    <a href="#" class="cart-btn">Checkout now</a> 
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--HOME SECTION-->
+    <div class="home" id="home">
+        <div class="home-container">
+            <h1 class="home-heading">Make the <span class="korean">커피</span> <span class="keopi">(keopi)</span> <br> of your dreams anywhere!</h1>
+            <p class="home-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi excepturi asperiores nobis suscipit expedita inventore! Veritatis similique sunt ipsa velit, neque necessitatibus amet dolore dolores ab? Ipsum suscipit maiores ipsam!</p>
+            <button class="home-btn"><a href="#">Get your fill</a></button>
+        </div>
+    </div>
+
+
+    <!--ABOUT SECTION-->
+    <div class="about" id="about">
+        <h1 class="about-heading"><span class="about-highlight">about</span> us</h1>
+        <div class="row">
+            <div class="about-img-container">
+                <img src="images/about-img.jpeg" class="about-img">
+            </div>
+            <div class="about-content">
+                <h3 class="about-title">What makes our coffee special?</h3>
+                <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quis quia labore ullam. Expedita libero itaque rerum tenetur quibusdam, eos ducimus aperiam! Corrupti tenetur odit fugiat facilis necessitatibus, quo assumenda? <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolore similique a vitae neque, fuga consequatur voluptate, esse in officiis optio, voluptas aliquam quidem cupiditate aperiam accusantium illum nesciunt molestiae?</p>
+                <button class="about-btn"><a href="#about">Learn more.</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!--MENU SECTION-->
+    <div class="menu" id="menu">
+        <h1 class="menu-heading"> our <span class="menu-highlight">menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/menu-1.png" class="box-img">
+                <h3>Creamy & smooth</h3>
+                <div class="menu-price">$15.99 <span>20.99</span></div>
+                <button class="menu-btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" class="box-img">
+                <h3>Creamy & smooth</h3>
+                <div class="menu-price">$15.99 <span>20.99</span></div>
+                <button class="menu-btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" class="box-img">
+                <h3>Creamy & smooth</h3>
+                <div class="menu-price">$15.99 <span>20.99</span></div>
+                <button class="menu-btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" class="box-img">
+                <h3>Creamy & smooth</h3>
+                <div class="menu-price">$15.99 <span>20.99</span></div>
+                <button class="menu-btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" class="box-img">
+                <h3>Creamy & smooth</h3>
+                <div class="menu-price">$15.99 <span>20.99</span></div>
+                <button class="menu-btn"><a href="#">Add to Cart</a></button>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" class="box-img">
+                <h3>Creamy & smooth</h3>
+                <div class="menu-price">$15.99 <span>20.99</span></div>
+                <button class="menu-btn"><a href="#">Add to Cart</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--PRODUCTS SECTION-->
+    <div class="products" id="products">
+        <h1 class="products-heading">Our <span class="products-highlight">Products</span></h1>
+
+        <div class="products-box-container">
+            <div class="products-box">
+                <div class="products-icons">
+                    <a href="#"><i class="lni lni-cart"></i></a>
+                    <a href="#"><i class="lni lni-heart"></i></a>
+                    <a href="#"><i class="lni lni-eye"></i></a>
+                </div>
+                <div class="products-img">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="products-content">
+                    <h3>Fresh Keopi</h3>
+                    <div class="products-stars">
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star"></i>
+                    </div>
+                    <div class="products-price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="products-box">
+                <div class="products-icons">
+                    <a href="#"><i class="lni lni-cart"></i></a>
+                    <a href="#"><i class="lni lni-heart"></i></a>
+                    <a href="#"><i class="lni lni-eye"></i></a>
+                </div>
+                <div class="products-img">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="products-content">
+                    <h3>Fresh Keopi</h3>
+                    <div class="products-stars">
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star"></i>
+                    </div>
+                    <div class="products-price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="products-box">
+                <div class="products-icons">
+                    <a href="#"><i class="lni lni-cart"></i></a>
+                    <a href="#"><i class="lni lni-heart"></i></a>
+                    <a href="#"><i class="lni lni-eye"></i></a>
+                </div>
+                <div class="products-img">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="products-content">
+                    <h3>Fresh Keopi</h3>
+                    <div class="products-stars">
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star-filled"></i>
+                        <i class="lni lni-star"></i>
+                    </div>
+                    <div class="products-price">$15.99</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--REVIEW SECTION-->
+    <div class="review" id="review">
+        <h1 class="review-heading"> Customers' <span class="review-highlight">review</span></h1>
+        <div class="review-box-container">
+            <div class="review-box">
+                <div class="review-icon"><i class="lni lni-bubble"></i></div>
+                <p class="review-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea beatae quis laudantium natus ratione nemo fuga soluta dicta. Fugiat magnam ipsa non vitae quis. Impedit minus sint consequuntur eos autem!</p>
+                <img src="images/pic-1.png" alt="" class="review-img">
+                <h3 class="review-name">Max</h3>
+                <div class="review-stars">
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star"></i>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="review-icon"><i class="lni lni-bubble"></i></div>
+                <p class="review-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea beatae quis laudantium natus ratione nemo fuga soluta dicta. Fugiat magnam ipsa non vitae quis. Impedit minus sint consequuntur eos autem!</p>
+                <img src="images/pic-2.png" alt="" class="review-img">
+                <h3 class="review-name">Alice</h3>
+                <div class="review-stars">
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star"></i>
+                </div>
+            </div>
+            
+            <div class="review-box">
+                <div class="review-icon"><i class="lni lni-bubble"></i></div>
+                <p class="review-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea beatae quis laudantium natus ratione nemo fuga soluta dicta. Fugiat magnam ipsa non vitae quis. Impedit minus sint consequuntur eos autem!</p>
+                <img src="images/pic-3.png" alt="" class="review-img">
+                <h3 class="review-name">John</h3>
+                <div class="review-stars">
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star-filled"></i>
+                    <i class="lni lni-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--BLOG SECTION-->
+    <div class="blogs" id="blogs">
+        <h1 class="blogs-heading">Our <span class="blogs-highlight">blogs</span></h1>
+        <div class="blogs-box-container">
+            <div class="blogs-box">
+                <div class="blogs-img">
+                    <img src="images/blog-1.jpeg" alt="">
+                </div>
+                <div class="blogs-content">
+                    <a href="#" class="blogs-title">Smooth and sweet coffee</a>
+                    <span class="blogs-details">by Admin / 5th July, 2022</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam libero suscipit deserunt cupiditate, quibusdam id, sunt ex laborum optio iste, pariatur magni quos amet quia aliquid tenetur. Pariatur, totam harum.</p>
+                    <button class="blogs-btn"><a href="#">Read more</a></button>
+                </div>
+            </div>
+
+            <div class="blogs-box">
+                <div class="blogs-img">
+                    <img src="images/blog-2.jpeg" alt="">
+                </div>
+                <div class="blogs-content">
+                    <a href="#" class="blogs-title">Smooth and sweet coffee</a>
+                    <span class="blogs-details">by Admin / 5th July, 2022</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam libero suscipit deserunt cupiditate, quibusdam id, sunt ex laborum optio iste, pariatur magni quos amet quia aliquid tenetur. Pariatur, totam harum.</p>
+                    <button class="blogs-btn"><a href="#">Read more</a></button>
+                </div>
+            </div>
+
+            <div class="blogs-box">
+                <div class="blogs-img">
+                    <img src="images/blog-3.jpeg" alt="">
+                </div>
+                <div class="blogs-content">
+                    <a href="#" class="blogs-title">Smooth and sweet coffee</a>
+                    <span class="blogs-details">by Admin / 5th July, 2022</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam libero suscipit deserunt cupiditate, quibusdam id, sunt ex laborum optio iste, pariatur magni quos amet quia aliquid tenetur. Pariatur, totam harum.</p>
+                    <button class="blogs-btn"><a href="#">Read more</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTACT SECTION-->
+    <div class="contact" id="contact">
+        <h1 class="contact-heading"><span class="contact-highlight">Contact</span> us</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7032800238053!2d101.66034001458571!3d3.1726065538931403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc497dc87e9519%3A0xf48b5d660e9af520!2sKeopi%20%26%20Sul.%20-%20Cafe%20%26%20Bistro!5e0!3m2!1sit!2sro!4v1656930592988!5m2!1sit!2sro"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3 class="contact-title">Get in touch with us!</h3>
+                <div class="inputBox">
+                    <i class="lni lni-users"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <i class="lni lni-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <i class="lni lni-phone"></i>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="contact-btn">
+            </form>
+        </div>
+
+    </div>
+
+    <!--FOOTER SECTION-->
+    <div class="footer">
+        <div class="footer-socials">
+            <i class="lni lni-facebook"></i>
+            <i class="lni lni-twitter"></i>
+            <i class="lni lni-instagram"></i>
+            <i class="lni lni-linkedin"></i>
+            <i class="lni lni-pinterest"></i>
+        </div>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Reviews</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-credit">Created by <span>Iordache Michelle</span> | All rights reserved</div>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
